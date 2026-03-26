@@ -1,0 +1,14 @@
+{
+    "name": "Rust",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {
+            "version": "latest",
+            "profile": "minimal",
+            "targets": "x86_64-unknown-uefi",
+            "components": "rust-analyzer,rust-src,rustfmt,clippy"
+        }
+    }
+}

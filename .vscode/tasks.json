@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run loader",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--bin",
+                "loader",
+                "--target",
+                "x86_64-unknown-uefi"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+        }
+    ]
+}

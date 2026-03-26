@@ -1,0 +1,18 @@
+[package]
+name = "notitle"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+name = "kernel"
+path = "src/main.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "loader"
+path = "src/boot/loader.rs"
+test = false
+bench = false
+
+[dependencies]
